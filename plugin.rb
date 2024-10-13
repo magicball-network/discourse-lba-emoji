@@ -43,7 +43,7 @@ after_initialize do
   register_emoji("rage", "/plugins/discourse-lba-emoji/images/takam/rage.png", "lba")
   register_emoji("roll_eyes", "/plugins/discourse-lba-emoji/images/takam/roll_eyes.gif", "lba")
   translate_emoji(":rolleyes:", "roll_eyes")
-  register_emoji("rabbifunny", "/plugins/discourse-lba-emoji/images/takam/rabbibunny.png", "lba")
+  register_emoji("rabbibunny", "/plugins/discourse-lba-emoji/images/takam/rabbibunny.png", "lba")
   register_emoji("slight_smile", "/plugins/discourse-lba-emoji/images/takam/slight_smile.png", "lba")
   register_emoji("smiley", "/plugins/discourse-lba-emoji/images/takam/smiley.png", "lba")
   register_emoji("stuck_out_tongue", "/plugins/discourse-lba-emoji/images/takam/stuck_out_tongue.png", "lba")
