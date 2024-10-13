@@ -58,6 +58,7 @@ after_initialize do
   register_emoji("zombie", "/plugins/discourse-lba-emoji/images/takam/zombie.png", "lba")
   register_emoji("zoe_wink", "/plugins/discourse-lba-emoji/images/takam/zoe_wink.png", "lba")
 
+  register_emoji("boat", "/plugins/discourse-lba-emoji/images/boat.png", "lba")
   register_emoji("buggy", "/plugins/discourse-lba-emoji/images/buggy.png", "lba")
   register_emoji("darkmonk_key", "/plugins/discourse-lba-emoji/images/darkmonk_key.png", "lba")
   translate_emoji(":dkey:", "darkmonk_key")
