@@ -72,6 +72,8 @@ after_initialize do
   register_emoji("moon", "/plugins/discourse-lba-emoji/images/moon.png", "lba")
   register_emoji("notes", "/plugins/discourse-lba-emoji/images/notes.png", "lba")
   translate_emoji(":song:", "notes")
+  register_emoji("pipetrick", "/plugins/discourse-lba-emoji/images/pipetrick.gif", "lba")
+  register_emoji("pipetrick_small", "/plugins/discourse-lba-emoji/images/pipetrick_small.gif", "lba")
   register_emoji("protopack", "/plugins/discourse-lba-emoji/images/protopack.png", "lba")
   register_emoji("rabbifunny", "/plugins/discourse-lba-emoji/images/takam/rabbibunny.png", "lba")
   register_emoji("ring", "/plugins/discourse-lba-emoji/images/ring.png", "lba")
