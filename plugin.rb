@@ -1,6 +1,6 @@
 # name: discourse-lba-emoji
 # about: Discourse LBA Emoji
-# version: 1.0
+# version: 1.1
 # authors: TaKaM & elmuerte
 # url: https://github.com/magicball-network/discourse-lba-emoji
 
@@ -54,8 +54,10 @@ after_initialize do
   register_emoji("evilwink", "/plugins/discourse-lba-emoji/images/takam/wink.png", "lba")
   register_emoji("zombie", "/plugins/discourse-lba-emoji/images/takam/zombie.png", "lba")
 
+  register_emoji("dinofly", "/plugins/discourse-lba-emoji/images/takam/dinofly.png", "lba")
   register_emoji("diploma", "/plugins/discourse-lba-emoji/images/diploma.png", "lba")
   register_emoji("flower", "/plugins/discourse-lba-emoji/images/flower.png", "lba")
+  register_emoji("funfrock", "/plugins/discourse-lba-emoji/images/takam/funfrock.png", "lba")
   register_emoji("gem", "/plugins/discourse-lba-emoji/images/gem.png", "lba")
   register_emoji("glove", "/plugins/discourse-lba-emoji/images/glove.png", "lba")
   register_emoji("holomap", "/plugins/discourse-lba-emoji/images/holomap.png", "lba")
@@ -71,6 +73,7 @@ after_initialize do
   register_emoji("notes", "/plugins/discourse-lba-emoji/images/notes.png", "lba")
   translate_emoji(":song:", "notes")
   register_emoji("protopack", "/plugins/discourse-lba-emoji/images/protopack.png", "lba")
+  register_emoji("rabbifunny", "/plugins/discourse-lba-emoji/images/takam/rabbibunny.png", "lba")
   register_emoji("ring", "/plugins/discourse-lba-emoji/images/ring.png", "lba")
   register_emoji("sendel_ball", "/plugins/discourse-lba-emoji/images/sendel_ball.png", "lba")
   register_emoji("ticket", "/plugins/discourse-lba-emoji/images/ticket.png", "lba")
@@ -79,5 +82,6 @@ after_initialize do
   register_emoji("ufo", "/plugins/discourse-lba-emoji/images/ufo.png", "lba")
   register_emoji("zeelich", "/plugins/discourse-lba-emoji/images/zeelich.png", "lba")
   register_emoji("zlito", "/plugins/discourse-lba-emoji/images/zlito.png", "lba")
+  register_emoji("zoe_wink", "/plugins/discourse-lba-emoji/images/takam/zoe_wink.png", "lba")
 
 end
